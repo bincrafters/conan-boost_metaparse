@@ -3,7 +3,6 @@ from conans import ConanFile, tools, os
 class BoostMetaparseConan(ConanFile):
     name = "Boost.Metaparse"
     version = "1.64.0"
-    generators = "boost" 
     url = "https://github.com/bincrafters/conan-boost-metaparse"
     description = "Please visit http://www.boost.org/doc/libs/1_64_0/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
