@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostMetaparseConan(ConanFile):
     name = "boost_metaparse"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-metaparse"
+    url = "https://github.com/bincrafters/conan-boost_metaparse"
  
     lib_short_names = ["metaparse"]
     is_header_only = True
