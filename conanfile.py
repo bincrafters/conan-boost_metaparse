@@ -8,7 +8,7 @@ class BoostMetaparseConan(ConanFile):
     name = "boost_metaparse"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_metaparse"
-     author = "Bincrafters <bincrafters@gmail.com>"
+    author = "Bincrafters <bincrafters@gmail.com>"
     exports = ["LICENSE.md"]
     lib_short_names = ["metaparse"]
     is_header_only = True
