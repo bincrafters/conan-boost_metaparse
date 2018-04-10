@@ -15,7 +15,6 @@ class BoostMetaparseConan(ConanFile):
     def package_id_additional(self):
         self.info.header_only()
 
-    # TODO: test
     requires = (
         "boost_config/1.67.0@bincrafters/testing",
         "boost_mpl/1.67.0@bincrafters/testing",
