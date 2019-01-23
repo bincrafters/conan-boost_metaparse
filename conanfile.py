@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.67.0@bincrafters/testing")
 
 class BoostMetaparseConan(base.BoostBaseConan):
     name = "boost_metaparse"
+    version = "1.67.0"
     url = "https://github.com/bincrafters/conan-boost_metaparse"
     lib_short_names = ["metaparse"]
     header_only_libs = ["metaparse"]
